@@ -229,15 +229,15 @@
                 </div>
               <form action="https://formsubmit.co/kedarnathpandya@gmail.com" method="post">
                 <div class="input-wrap">
-                    <input type="text" name="name" placeholder="Your name">
-                    <input type="email" name="emailaddress" placeholder="Email address">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="emailaddress" placeholder="Email address" required>
                 </div>
                 <div class="input-wrap-2">
-                    <input type="phone" name="mobilenumber" placeholder="Contact number">
-                    <input type="company" name="companyname" placeholder="Company name">
+                    <input type="tel" name="mobilenumber" placeholder="Contact number" pattern="[0-9]{10}" required>
+                    <input type="company" name="companyname" placeholder="Company name (Optional)">
                 </div>
                 <div class="input-wrap-3">
-                    <textarea name="enquiry" id="" cols="30" rows="10" placeholder="Your enquiry"></textarea>
+                    <textarea name="enquiry" id="" cols="30" rows="10" placeholder="Your enquiry" required></textarea>
                 </div>
                 <div class="btn-wrapper">
                     <button class="btn btn-primary">Send Message</button>
