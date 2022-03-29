@@ -170,11 +170,6 @@ section.about .social a img{
     width: 35px;
 }
 
-section.about .social a img.apple{
-    height: 150px;
-    width: 150px;
-}
-
 .section-heading{
     color: var(--secondary);
     text-align: center;
